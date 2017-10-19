@@ -1,0 +1,150 @@
+.whiteText {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 18px;
+	background-color:#09C;
+}
+
+
+/* ADDED BY DHRUBA ON 11-FEB-2009 */
+.topmenu {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	background-color:#09C;
+}
+.selectedmenu {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	CURSOR: hand; 
+	COLOR: #ffff00; 
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #09C;
+}
+
+.SubMenu {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	WIDTH: auto; 
+	CURSOR: hand; 
+	COLOR: #333333; 
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #94C4DA;
+}
+.treeView {
+ font-family:  Verdana, Arial, Helvetica, sans-serif;
+ font-size: 9px;
+ font-weight: normal;
+ color: #009900;
+ text-decoration: none;
+ background-color: #FFFFFF;
+ padding-left:2;
+ padding-right:2;
+}
+a.treeView:hover {
+ font-family:  Verdana, Arial, Helvetica, sans-serif;
+ font-size: 9px;
+ font-weight: normal;
+ color: #FFFFFF;
+ text-decoration: none;
+ background-color:#009900;
+ padding-left:2;
+ padding-right:2;
+}
+a.treeViewSelected {
+ font-family:  Verdana, Arial, Helvetica, sans-serif;
+ font-size: 9px;
+ font-weight: normal;
+ color: #FFFFFF;
+ text-decoration: none;
+ background-color:#009900;
+ padding-left:2;
+ padding-right:2;
+}
+
+
+/*/////////////////////*/
+.textfieldNum {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #009900;
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	text-align:right;
+}
+.gridViewColumnInvisible
+{
+	/*visibility:hidden;*/
+	display:none;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : green;
+	padding : 1px;
+	font-family: 'Verdana';
+	font-size:11px;
+	font-weight:bold;
+}
+
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	/*visibility : hidden;
+	margin : 0px!important;*/
+	/*background-color : inherit;*/
+	background-color :inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height :200px;
+    text-align : left; 
+    list-style-type : none;
+ 	font-family: 'Verdana';
+    font-size:11px;
+    font-weight:bold;	
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color:Silver;
+	color: green;
+	padding: 1px;
+	font-family: 'Verdana';
+	font-size:11px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : green;
+	padding : 1px;
+	font-family: 'Verdana';
+	font-size:11px;
+	font-weight:bold;
+}
+
+.cssHide 
+{
+    display:none;
+}

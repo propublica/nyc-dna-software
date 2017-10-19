@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e142c9ce-53d7-41e9-9d29-33b7ec21856f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8880/FSTSVC" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FSTWebService.wsdl" MetadataType="Wsdl" ID="ca33b599-e0d1-4103-b98d-68773e7cbb0c" SourceId="1" SourceUrl="http://localhost:8880/FSTSVC?wsdl" />
+    <MetadataFile FileName="FSTSVC.disco" MetadataType="Disco" ID="40469243-f262-4699-b68f-9f97d8f22cae" SourceId="1" SourceUrl="http://localhost:8880/FSTSVC?disco" />
+    <MetadataFile FileName="FSTSVC.xsd" MetadataType="Schema" ID="31e89072-d46f-4a00-be8d-bc2e644ec2ff" SourceId="1" SourceUrl="http://localhost:8880/FSTSVC?xsd=xsd0" />
+    <MetadataFile FileName="FSTSVC1.xsd" MetadataType="Schema" ID="81f6c0b0-c32c-4739-9148-4bcc4233ac2a" SourceId="1" SourceUrl="http://localhost:8880/FSTSVC?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

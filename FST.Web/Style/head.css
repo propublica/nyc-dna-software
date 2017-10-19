@@ -1,0 +1,6 @@
+.DataGridFixedHeader {
+background-color: white; 
+position:relative; 
+top:expression(this.offsetParent.scrollTop)
+}
+

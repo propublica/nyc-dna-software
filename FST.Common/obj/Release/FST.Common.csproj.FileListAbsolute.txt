@@ -1,0 +1,5 @@
+E:\Projects\OCMEFST01\FST_Research\FST.Common\bin\Release\FST.Common.dll
+E:\Projects\OCMEFST01\FST_Research\FST.Common\bin\Release\FST.Common.pdb
+E:\Projects\OCMEFST01\FST_Research\FST.Common\obj\Release\FST.Common.csprojResolveAssemblyReference.cache
+E:\Projects\OCMEFST01\FST_Research\FST.Common\obj\Release\FST.Common.dll
+E:\Projects\OCMEFST01\FST_Research\FST.Common\obj\Release\FST.Common.pdb

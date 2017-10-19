@@ -1,0 +1,346 @@
+/* CSS Document */
+
+
+.tablebg{
+	background-color:#FFF;
+	border:1px solid #aab3b3;
+	
+	
+}
+.textboxSmall {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 10px;
+	color:#808080;
+	text-decoration: none;
+	width:50px;
+	height:16px;
+	border:1px solid #aab3b3;
+}
+.textboxBg {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 12px;
+	color:#808080;
+	text-decoration: none;
+	width:110px;
+	height:16px;
+	border:1px solid #aab3b3;
+}
+.comboBg {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 12px;
+	color:#808080;
+	text-decoration: none;
+	height:20px;
+	border:1px solid #aab3b3;
+}
+.topLink {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 8pt;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.topLink:hover {
+	font-family: Arial,sans-serif, Verdana, Helvetica;
+	font-size: 8pt;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.topLinkdivider {
+	font-family: trebuchet ms;
+	font-size: 10pt;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.BOLDWHITETEXTs {
+	font-family: Arial,sans-serif, Verdana, Helvetica;
+	font-size: 10pt;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.gridheader {
+	font-family:  Arial,sans-serif, Verdana, Helvetica;
+	font-size: 10pt;
+	color: #333332;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#gridnormal {
+	font-family: Arial,sans-serif, Verdana, Helvetica;
+	font-size: 11px;
+	color: #676767;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+.gridnormal {
+	font-family: Arial,sans-serif, Verdana, Helvetica;
+	font-size: 11px;
+	color: #676767;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.gridnormalred{
+	font-family: Arial,sans-serif, Verdana, Helvetica;
+	font-size: 10pt;
+	color: #cc2d35;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.footerText{
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 8pt;
+	color: #666666;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.hlt td {
+                background-color: #e1e2e3;
+                color: red;
+            }
+
+
+
+/********** For GridView **********************************************************************************************/
+.datagridRowHeadMulti {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: Bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-color:#205a95;
+	padding-left:2px;
+	padding-right:2px;
+	POSITION: relative;
+	TOP: expression(this.offsetParent.scrollTop-2);
+	border:1px solid #FFFFFF;
+	height:22;
+}
+.datagridRowHead {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: Bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-color:#94c4da;
+	height:21px;
+	
+	border-right:1px solid #ffffff;
+}
+.datagridRowHeadStatic {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10.5px;
+	font-weight: Bold;
+	color: #ffffff;
+	text-decoration: none;
+	background-image:url(../Images/btn_bg.gif);
+	height:21px;
+	padding-left:0px;
+	padding-right:0px;
+	POSITION: relative;
+	/*TOP: expression(this.offsetParent.scrollTop-2); */
+	border-right:1px solid #ffffff;
+}
+.datagridRow1 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	background-color:#ffffff;
+	padding-left:2px;
+}
+.datagridRow2 {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	background-color:#f3f4f4;
+	padding-left:2px;
+	border-right:1px solid #FFFFFF;
+}
+.datagridTextBox {
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color:#009900;
+	border:none;
+}
+.gridViewColumnInvisible
+{
+	display:none;
+}
+	/* ----------- basic ----------- */
+	#basic{
+		border:0px;
+	}
+	
+	#basic label{
+		display:block;
+		font-weight:bold;
+		text-align:left;
+		width:50px;
+		float:left;
+		font-family:Arial,sans-serif, Verdana, Helvetica;
+		color:#676767;
+		font-size:13px;
+	}
+	#basic .small{
+		color:#666666;
+		display:block;
+		font-size:11px;
+		font-weight:normal;
+		text-align:right;
+		width:50px;
+	}
+	#basic input{
+		float:left;
+		width:140px;
+		margin:2px 0 30px 35px;
+	}
+	.button{
+	padding-top:30px;
+		margin-left:90px;
+		width:140px;
+		height:22px;
+		
+		
+		
+	}
+/* ----------- search form end----------- */
+
+/* -----------editable start----------- */
+
+.editable, textarea{
+	background-color: #ffffd3;
+}
+
+/* -----------editable end----------- */
+ul, li {
+	font-family:Arial,sans-serif, Verdana, Helvetica;
+	font-size:12px;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}		
+#crumbs {
+	height:2.3em;
+	border:1px solid #dedede;
+	}
+#crumbs li {
+	float:left;
+	line-height:2.3em;
+	color:#777;
+	padding-left:.75em;
+	width: 90px;
+}		
+#crumbs li a {
+	background:url(../../images/crumbs.gif) no-repeat right center;
+	display:block;
+	padding:0 15px 0 0;
+	}							
+#crumbs li a:link,
+#crumbs li a:visited {
+	color:#777;
+	text-decoration:none;
+	}	
+a:link, a:visited,	
+#crumbs li a:hover,
+#crumbs li a:focus {
+	color:#dd2c0d;
+	}
+	
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid #778;
+color: #2d2b2b;
+background: white url(../../images/shade.gif) top left repeat-x;
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+top: 1px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-image: url(../../images/shadeactive.gif);
+border-bottom-color: white;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}	
+
+.bluetextBold{
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#09C;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+.graynormalText{
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#777;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	}
+	
+	.hidenTextBox
+{
+	display:none
+}
+
+.uploader{
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#777;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	background-color:#F7F7F7;
+	border:1px solid #688E1A;
+	}

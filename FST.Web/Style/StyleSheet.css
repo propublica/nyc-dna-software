@@ -1,0 +1,67 @@
+﻿#TJKDropDownMenu a,
+#TJKDropDownMenu a:link,
+#TJKDropDownMenu a:visited {
+	font-size:.9em;
+	color:navy
+}
+#TJKDropDownMenu,
+#TJKDropDownMenu ul {
+	padding:0;
+	margin:0 0 0 6px;
+	width:750px
+}
+/* Nested ULs */ 
+#TJKDropDownMenu li ul {
+	position:absolute;
+	top:1.8em;
+	left:-900px
+}
+/* All LIs */
+#TJKDropDownMenu li {
+	float:left;
+	width:auto;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-weight:600;
+	border-bottom:1px solid #004284
+}
+#TJKDropDownMenu li a {
+	padding:.1em .4em;
+	height:2em;
+	line-height:2em;
+	border-bottom:2px solid #e6ecf3;
+	background:url(/articles/dropdown/img/pipe.gif) right center no-repeat transparent
+}
+#TJKDropDownMenu li a:hover {
+	background-color:#004284;
+	background-image:none;
+	color:#fff;
+	border-bottom:2px solid #004284
+}
+#TJKDropDownMenu li ul li a {
+	line-height:1.7em;
+	height:1.7em;
+	font-weight:400;
+	border:none;
+	color:#333;
+	background-image:none
+}
+/* we reset the margin for the children */
+#TJKDropDownMenu li ul li {
+	margin:0;
+	border-bottom:0;
+	border-right:1px solid #004284
+}
+#TJKDropDownMenu li:hover ul,
+#TJKDropDownMenu li.msieFix ul {left:9px}
+
+
+.hide-dropdown {
+   display:none
+}
+
+.hidenTextBox
+{
+	display:none
+}

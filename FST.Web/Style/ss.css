@@ -1,0 +1,438 @@
+﻿body
+{
+    border-right: 0px;
+    padding-right: 0px;
+    border-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font: 0.8em/1.45em Verdana, Arial, Tahoma sans-serif;
+    border-left: 0px;
+    padding-top: 0px;
+    border-bottom: 0px;
+    letter-spacing: 0px;
+    height: 100%;
+    background-color: #dee7f7;
+    text-align: center;
+}
+DIV#wrapper
+{
+    WIDTH: 900px;
+    TEXT-ALIGN: left;
+    position:relative;
+}
+DIV#main
+{
+    BORDER-RIGHT: #102039 2px solid;
+    BORDER-LEFT: #102039 2px solid;
+    BORDER-BOTTOM: #102039 1px solid;
+}
+DIV#header
+{
+    BACKGROUND: url(./Images/eol_header.jpg) #253960 no-repeat;
+    HEIGHT: 80px;
+}
+.WhiteBG
+{
+    background-color: #dee7f7;
+}
+DIV#enetMenu
+{
+    FLOAT: right;
+}
+DIV#enet
+{
+    FLOAT: right;
+}
+DIV#nav
+{
+    CLEAR: both;
+    MARGIN-BOTTOM: 15px;
+    WIDTH: 100%;
+    BACKGROUND-COLOR: #efba08;
+}
+#houseMenuVstatic
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    LINE-HEIGHT: 1.15em;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none;
+}
+#houseMenuVstatic UL
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 0px;
+    LINE-HEIGHT: 1.15em;
+    PADDING-TOP: 5px;
+    LIST-STYLE-TYPE: none;
+}
+#houseMenuVstatic A
+{
+    PADDING-RIGHT: 30px;
+    DISPLAY: block;
+    PADDING-LEFT: 6px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 2px;
+    FONT: menu;
+    COLOR: #102039;
+    PADDING-TOP: 1px;
+    LETTER-SPACING: 1px;
+    BACKGROUND-COLOR: #efbe18;
+    TEXT-DECORATION: none;
+}
+#houseMenuVstatic LI
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px;
+    WIDTH: 350px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px;
+}
+DIV#pagetitle
+{
+    MARGIN-TOP: -18px;
+}
+.ptitle
+{
+    DISPLAY: block;
+    PADDING-LEFT: 5px;
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 1.25em;
+    PADDING-BOTTOM: 7px;
+    COLOR: white;
+    BORDER-BOTTOM: white 0px solid;
+    FONT-FAMILY: "Bookman Old Style", Georgia, Palatino, "Times New Roman", Times, serif;
+    BACKGROUND-COLOR: #4c5b7c;
+}
+
+.maincontent
+{
+    width: 896px;
+    height: 600px;
+    background-color: White;
+    border-top:black 2px solid;
+    border-right: black 2px solid;
+    border-left: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+.highlight
+{
+   background-color: #fefbd2;
+   color: #000080;
+}
+
+#breadcrumb
+{
+   background-color: White;
+   color: black;
+   padding: 3px;
+   font-size: 10px;	
+   padding-left: 5px;
+   text-align:left;
+}
+
+#breadcrumb a
+{
+   color: Navy;
+}
+
+#loginbox
+{
+   position:absolute;
+   top:50px;
+   right:2px;
+   width: 180px;
+   height: 50px;
+   padding: 2px 2px 2px 2px;    
+   font-size: 10px;
+   background-color:Silver;
+   text-align:left;
+}
+
+#loginbox input
+{
+   color: red;
+   border-color: red;
+   background-color: #f7d582;
+   font-size: 10px;
+}
+
+#themeselector
+{
+   position: absolute;
+   text-align: right;
+   top: 155px;
+   right: 20px;
+   width: 180px;
+   height: 80px;
+   padding: 2px 2px 2px 2px;    
+   font-size: 9px;
+}
+
+#themeselector select
+{
+   color: black;
+   background-color: #e1e1e1;
+   font-size: 9px;
+}
+
+#welcomebox
+{
+   font-size: 10px;
+   text-align: right;
+}
+
+#headermenu
+{
+   padding: 10px 10px 10px 10px;
+   text-align: left;
+   background-color: #dee7f7;
+}
+
+.headermenulink
+{
+   font-family: Courier New;
+   font-size: 20px;
+   text-transform: uppercase;        
+}
+
+.headermenulink a
+{
+   text-decoration: none;
+   color: black; 
+}
+
+.headermenulink a:hover
+{
+   text-decoration: underline overline;
+   color: black; 
+}
+
+.sectiontitle
+{
+   font-weight: bold;
+   font-size: larger;
+   color: #b45d16;
+   text-align:center;
+}
+
+.supertext
+{
+    vertical-align:super; 
+    font-size:xx-small;
+}
+
+div.sectionsubtitle
+{
+   font-weight: bold;
+   text-align:left;
+   padding-bottom: 4px;
+   padding-left:10px;
+}
+
+div.sectioncontent
+{
+    width: 60%; 
+    text-align: 
+    justify; margin-top: 30px;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+.gvwCaption
+{
+    background-color:#990000; 
+    width:100%; 
+    height:25px; 
+    font-weight:bold; 
+    color:white;
+}
+
+td.fieldname
+{
+    text-align:right;
+    font-size:10px;
+    font-weight:bold;
+}
+
+#currentcontractinfo
+{
+    border-right: black thin solid; 
+    border-top: black thin solid;  
+    border-left: black thin solid; 
+    border-bottom: black thin solid; 
+    margin: 5px;
+    width: 90%;
+}
+
+.HideRootNode
+{
+    visibility: hidden;
+    margin-left: -130px;    /* change as needed, depends on text length */
+}
+
+.farsiLink:link 
+{
+    font-family: Tahoma;
+    /*font-size: large; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+            
+.farsiLink:visited
+{
+    font-family: Tahoma;
+    /*font-size: large; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+            
+.farsiLink:hover 
+{
+    font-family: Tahoma;
+    /*font-size: large; */  
+    color:#FF66FF; 
+    text-decoration:none;
+}
+            
+.farsiLink:active 
+{
+    font-family: Tahoma;
+    /*font-size: large; */ 
+    color:#0066FF; 
+    text-decoration:none;
+} 
+
+.farsiDiv a:link 
+{
+    font-family: Tahoma;
+    /*font-size: 12pt; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+            
+.farsiDiv a:visited 
+{
+    font-family: Tahoma;
+    /*font-size: 12pt; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+
+.farsiDiv a:hover 
+{
+    font-family: Tahoma;
+    /*font-size: 12pt; */ 
+    color:#FF66FF; 
+    text-decoration:none;
+}
+
+.farsiDiv a:active 
+{
+    font-family: Tahoma;
+    /*font-size: 12pt; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+
+.linkbutton 
+{
+    font-family: Tahoma;
+    /*font-size: 12pt; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+
+.diviLink:link 
+{
+    font-family: Tahoma;
+    /*font-size: large; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+            
+.diviLink:visited
+{
+    font-family: Tahoma;
+    /*font-size: large; */ 
+    color:#0066FF; 
+    text-decoration:none;
+}
+            
+.diviLink:hover 
+{
+    font-family: Tahoma;
+    /*font-size: large; */  
+    color:#FF66FF; 
+    text-decoration:none;
+}
+            
+.diviLink:active 
+{
+    font-family: Tahoma;
+    font-size: large;  
+    color:red; 
+    text-decoration:none;
+}
+
+
+.topMenuCtrl
+{
+    float: left;
+    margin: 0px 17px 0px 17px;
+    color: #C1C1C1;
+    font: bold 12px/37px Arial, Helvetica, sans-serif;
+}
+
+.topMenuCtrl a
+{
+    /*-- padding should be changed if more menu items to be added --*/
+    padding: 0 10px;
+    text-decoration: none;
+    display: block;
+    color: #C1C1C1;
+    font: bold 12px/37px Arial, Helvetica, sans-serif;
+}
+
+.topMenuCtrl a:hover
+{
+    padding: 0 10px;
+    height: 37px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: ThreeDHighlight;
+    font: bold 12px/37px Arial, Helvetica, sans-serif;}
+    
+.topMenuDynamicMenuItemStyle
+{
+    background: url(/Images/bg.gif) repeat-x 0 0 #F7F7F7;
+    background-color:#2e5898;
+    color: Blue;
+    font:  11px/20px Arial, Helvetica, sans-serif;
+}
+
+.topMenuDynamicMenuItemStyle a:hover
+{
+    color: ThreeDHighlight;
+}

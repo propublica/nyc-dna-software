@@ -1,0 +1,60 @@
+﻿Installing assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Installing service FST Production Service...
+Service FST Production Service has been successfully installed.
+Creating EventLog source FST Production Service in log Application...
+Committing assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Installing assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Installing service FST Production Service...
+Creating EventLog source FST Production Service in log Application...
+Rolling back assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Restoring event log to previous state for source FST Production Service.
+Uninstalling assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Removing EventLog source FST Production Service.
+Service FST Production Service is being removed from the system...
+Service FST Production Service was successfully removed from the system.
+Installing assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = true
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Installing service FST Production Service...
+Service FST Production Service has been successfully installed.
+Creating EventLog source FST Production Service in log Application...
+Committing assembly 'C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = true
+   logfile = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = C:\inetpub\wwwroot\FST_Production\FST_Production_Service\FST_WindowsService.exe
+Installing assembly 'E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.exe
+Installing service FST Production Service...
+Service FST Production Service has been successfully installed.
+Creating EventLog source FST Production Service in log Application...
+Committing assembly 'E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.InstallLog
+   assemblypath = E:\Projects\OCMEFST01\FST_Production\FST.Web\FST_Production_Service\FST_WindowsService.exe

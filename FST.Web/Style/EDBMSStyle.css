@@ -1,0 +1,378 @@
+BODY
+{
+	background-color:#FFFFFF;
+	MARGIN: 0pt;
+   	Scrollbar-face-color:#C4D0DD;
+	scrollbar-shadow-color:#d6e5ed;
+	scrollbar-highlight-color:#d6e5ed;
+	scrollbar-3dlight-color:#6688bb;
+	scrollbar-darkshadow-color:#6688bb;
+	scrollbar-track-color:#577391;
+	scrollbar-arrow-color:#6688bb;
+	/*BACKGROUND-IMAGE: url(../images/pagebg.gif);*/
+}
+h1.PageHeader
+{
+	font-family :Arial ;
+	font-size: 12pt;
+	font-weight:bold;
+	color:Black ;
+}
+a
+{
+	color: #FDFFD2;
+	font-weight:bold 
+}
+a.ViewDetail
+{
+	color: #FDFFD2
+}
+
+a:active
+{
+	color:#FFFFFF
+}
+a:visited
+{
+	color: #FDFFD2
+}
+A:hover 
+{
+	color: #FFFFFF
+}
+a.a_grid
+{
+	color: red
+}
+a:active.a_grid
+{
+	color:#FFFFFF
+}
+a:visited.a_grid
+{
+	color: red
+}
+A:hover.a_grid 
+{
+	color: #FFFFFF
+}
+
+table.inner_table
+{
+background-color:"#577391";
+}
+td.form_header 
+{
+	border: 1px solid #FFFFFF;
+	BACKGROUND-COLOR: "#6C87A4";
+	COLOR: #FDFFD2;
+	font-family:Arial;
+	font-size:10pt
+}
+td.form_title
+{
+   
+	BACKGROUND-COLOR: "#577391";
+	COLOR: white;
+	FONT-FAMILY: Arial;
+	font-size:13pt;
+}
+td.even
+{
+
+	border: 1px solid #577391;
+	background-color:#C4D0DD;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:10pt
+}
+td.odd
+{
+	border: 1px solid #577391;
+	background-color:#E0E6EB;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:10pt
+
+}
+td.selected
+{
+	border: 1px solid #577391;
+	background-color:#F2DABE;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:10pt
+
+}
+td.footer
+{
+	background-color:#9bb3ce;
+	BORDER-RIGHT: #577391 1px solid; 
+	BORDER-TOP: #577391 1px solid; 
+	BORDER-LEFT: #577391 1px solid; 
+	BORDER-BOTTOM: #577391 1px solid;
+	borderColor=#577391
+
+}
+TR.Assistant
+{
+    COLOR: black;
+    BACKGROUND-COLOR: #C0C6D6
+}
+Input.InputBox
+{
+	background-color:#F2DABE
+}
+
+.DropBox     
+{ 
+	background-color: #F2DABE 
+}
+
+TD
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10pt
+}
+
+TABLE.form_table
+{
+    BACKGROUND-COLOR: #5c77b5;
+    BORDER-BOTTOM: darkblue 1pt groove;
+    BORDER-LEFT: darkblue 1pt groove;
+    BORDER-RIGHT: darkblue 1pt groove;
+    BORDER-TOP: darkblue 1pt groove
+}
+TABLE.form_footer
+{
+    BACKGROUND-COLOR: #ffcc77;
+    BORDER-BOTTOM: #ffcc77 thin ridge;
+    BORDER-LEFT: #ffcc77 thin ridge;
+    BORDER-RIGHT: #ffcc77 thin ridge;
+    BORDER-TOP: #ffcc77 thin ridge;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10pt
+}
+Td.table_data	
+{
+   BACKGROUND-COLOR: "#577391";
+	COLOR: white;
+	FONT-FAMILY: Arial;
+	font-size:10pt;
+}
+TABLE.form_inner
+{
+    BACKGROUND-COLOR: lightgrey
+}
+INPUT.form_button
+{
+    BACKGROUND-COLOR: deepskyblue;
+    BORDER-BOTTOM: #5c77b5 1pt inset;
+    BORDER-LEFT: #5c77b5 1pt inset;
+    BORDER-RIGHT: #5c77b5 1pt inset;
+    BORDER-TOP: #5c77b5 1pt inset;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: bolder
+}
+TABLE.form_header
+{
+    BACKGROUND-COLOR: #5c77b5;
+    BORDER-BOTTOM: black 1pt ridge;
+    BORDER-LEFT: black 1pt ridge;
+    BORDER-RIGHT: black 1pt ridge;
+    BORDER-TOP: black 1pt ridge;
+    COLOR: white;
+    FONT-FAMILY: Arial
+}
+
+
+
+Input.InputBox
+{
+	background-color:#F2DABE
+}
+
+
+.DropBox     
+{ 
+	background-color: #F2DABE 
+}
+
+.InputTextArea    
+{ 
+	background-color: #F2DABE 
+}
+
+INPUT
+{
+background-color: #f0f5f9; 
+color: #395574; 
+font-family: Arial; 
+font-size: 8pt; 
+font-weight: bold; 
+border: 1 solid #b1c4d3
+}
+SELECT
+{
+background-color: #f0f5f9; 
+color: #395574; 
+font-family: Arial; 
+font-size: 8pt; 
+font-weight: bold; 
+border: 1 solid #b1c4d3
+}
+
+textarea
+{
+background-color: #f0f5f9; 
+color: #395574; 
+font-family: Arial; 
+font-size: 8pt; 
+font-weight: bold; 
+border: 1 solid #b1c4d3
+}
+
+SELECT.login_sel
+{
+background-color: #105CA0;
+color: #FFFFFF; 
+font-family: Arial; 
+font-size: 15pt; 
+z-index: 1; 
+border-style: solid; 
+border-color: #0059B3
+}
+input.login_pass
+{
+BORDER: white 0px solid; 
+FONT-WEIGHT: bold; 
+FONT-SIZE: 14pt; 
+COLOR: #ffffff; 
+FONT-FAMILY: Arial; 
+LETTER-SPACING: 2pt; 
+text-transform: uppercase;
+BACKGROUND-COLOR: #0B589C
+
+}
+/* design for datagrid header*/
+tr.grid_header
+{
+	border: 1px solid #FFFFFF;
+	BACKGROUND-COLOR: #6C87A4;
+	COLOR: #FDFFD2;
+	font-family:Arial;
+	font-size:10pt;
+	font-weight:bold 
+}
+
+tr.grid_item
+{
+	border: 1px solid #577391;
+	background-color:#C4D0DD;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:8pt; /*10pt*/
+	align:center;
+	padding-left: 10px
+	
+
+}
+td.grid_space
+{
+	padding-left: 5PX
+}
+
+tr.grid_alter
+{
+	border: 1px solid #577391;
+	background-color:#E0E6EB;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size: small;
+	padding-left: 10px
+	
+	/*8pt /*10pt*/
+	
+}
+tr.grid_selected
+{
+	border: 1px solid #577391;
+	background-color:#F2DABE;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:10pt;
+padding-left: 10
+}
+Tr.Deactivated_selected
+{
+	border: 1px solid #577391;
+	background-color:#F2DABE;
+	COLOR: black;
+	FONT-FAMILY: Arial;
+	font-size:10pt
+
+}
+
+Tr.grid_pages
+{
+ background-color:#9bb3ce;
+	BORDER-RIGHT: #577391 1px solid; 
+	BORDER-TOP: #577391 1px solid; 
+	BORDER-LEFT: #577391 1px solid; 
+	BORDER-BOTTOM: #577391 1px solid;
+	borderColor=#577391
+
+}
+Tr.Deactivated
+{
+	border: 1px solid #577391;
+	color:Gray;
+	background-color:#C0C0C0 
+	
+}
+Input.TextBox_Normal
+{
+	background-color: #f0f5f9; 
+	color: #395574; 
+	font-family: Arial; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	border: 1 solid #b1c4d3
+}
+Input.TextBox_Selected
+{
+	background-color: #F2DABE; 
+	color: black; 
+	font-family: Arial; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	border: 1 solid #395574
+}
+Textarea.TextBox_Normal
+{
+	background-color: #f0f5f9; 
+	color: #395574; 
+	font-family: Arial; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	border: 1 solid #b1c4d3
+}
+Textarea.TextBox_Selected
+{
+	background-color: #F2DABE; 
+	color: black; 
+	font-family: Arial; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	border: 1 solid #395574
+}
+td.PageHeader
+{
+	font-family :Arial ;
+	font-size: 12pt;
+	font-weight:bold;
+	color:Black ;
+}

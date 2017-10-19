@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" Codebehind="MasterPage.master.cs" %>
+<%@ Register Assembly="skmMenu" Namespace="skmMenu" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Forensic Statistical Tool</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+    
+    <link type="text/css" href="Style/ui-lightness/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<link href="Style/ui-lightness/style_uvis.css" rel="stylesheet" type="text/css" />
+<link href="Style/style.css" rel="stylesheet" type="text/css" />	
+		<script type="text/javascript" src="<%=ImagePath%>Scripts/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="<%=ImagePath%>Scripts/jquery-ui-1.7.2.custom.min.js"></script>
+
+            <style type="text/css">
+      div.imageSub { position: relative; }
+      div.imageSub img { z-index: 1; }
+      div.imageSub div {
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        bottom: 0;
+        padding: 4px;
+        height: 16px;
+        line-height: 16px;
+        text-align: right;
+        overflow: hidden;
+      }
+      div.imageSub div.label {
+        z-index: 3;
+        color: black;
+        top: 28px;
+        right:8px;
+      }
+    </style>
+
+
+</head>
+<body onkeydown="okd()">
+    <form id="form1" runat="server">
+    
+    
+  <table width="996" border="0" align="center"   cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+        <div class="imageSub" style="width: 996px;"> <!-- Put Your Image Width -->
+            <img src="<%=ImagePath%>images/banner.gif" alt="Banner" width="996" height="96" />
+            <div class="label">v<%=FST_VERSION %></div>
+        </div>
+
+    </td>
+  </tr>
+  <tr>
+  <td>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="tblMenu">
+        <tr>
+            <td colspan="2">
+                <img  src="<%=ImagePath%>Images/spacer.gif" alt="spacer" width="54" height="1" /></td>
+        </tr>
+        <tr>
+            <td style="background-color:#09C">
+                <cc1:Menu ID="Menu1" Height="14px" CssClass="topmenu" runat="server" GridLines="none"
+                    Layout="Horizontal" SubMenuCssClass="SubMenu" SubMenuCssClass-Length="2" DefaultMouseOverCssClass-Length="0"
+                    DefaultMouseDownCssClass-Length="0" DefaultMouseUpCssClass-Length="0" MenuFadeDelay="1">
+                    <SelectedMenuItemStyle CssClass="selectedmenu"></SelectedMenuItemStyle>
+                </cc1:Menu>                                            
+            </td>
+            <td align="right" style="background-color:#09C" >
+                <asp:Label ID="lblWellcome" runat="server" CssClass="whiteText">Welcome</asp:Label><span>&nbsp;</span><asp:Label
+                    ID="lblUserName" runat="server" CssClass="whiteText">TestUser</asp:Label>&nbsp;
+                    <a href="Logout.aspx" id="aLogout" class="whiteText">LogOut</a>
+            </td>
+        </tr>
+      <tr><td colspan="2"><img src="<%=ImagePath%>images/spacer.gif" alt="spacer" width="1" height="3" /></td></tr>
+    </table>
+  </td>
+  </tr>
+  
+  <tr>
+    <td bgcolor="#f5f5f5" height="400" valign="top">
+    <%--****************** Content Holder Start**************--%>
+     <asp:ContentPlaceHolder id="MainContentHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <%--****************** Content Holder End**************--%>
+    </td>
+  </tr>
+  <%--****************** Footer Start**************--%>
+  <tr>
+    <td bgcolor="#eaeaea"><img src="<%=ImagePath%>images/spacer.gif" width="1" height="3" /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#eaeaea"><img src="<%=ImagePath%>images/spacer.gif" width="1" height="5" /></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" bgcolor="#eaeaea" class="footerText">© <script type="text/javascript">document.write(new Date().getFullYear())</script> City of New York Office of Chief Medical Examiner all rights reserved.</td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" bgcolor="#eaeaea" ><img src="<%=ImagePath%>images/spacer.gif" width="1" height="5" /></td>
+  </tr>
+  <%--****************** Footer End**************--%>
+  </table>
+    
+
+    
+    
+ 
+
+    </form>
+</body>
+</html>

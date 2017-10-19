@@ -1,0 +1,584 @@
+/* PAGE BACKGROUND */
+
+
+
+/*BODY { font-family:verdana; font-size:70%; }*/
+/*H1 { font-size:120%; font-style:italic; }*/
+
+DIV#divMenuBar { background-color:#CC9933; white-space:nowrap; }
+TABLE#tblMenuBar TD { font-size:80%; color:white; padding:0px 5px 0px 5px; cursor:default; white-space:nowrap; }
+TABLE#tblMenuBar TD.clsMenuBarItem { font-weight:bold; cursor:hand;white-space:nowrap; }
+
+DIV.clsMenu { 
+	font-size:70%; background-color:#FFFFCC; 
+	position:absolute; visibility:hidden; 
+	padding:5px 5px 5px 8px; border-top:1 white solid; 
+	white-space:nowrap;
+}
+DIV.clsMenu A { text-decoration:none; color:black; font-weight:normal;  white-space:nowrap; }
+DIV.clsMenu A:hover { color:blue;   white-space:nowrap; }
+
+BUTTON { font-family:tahoma; font-size:100%; }
+
+/* Panel Style */
+.xstooltip 
+{
+    position: absolute; 
+    z-index: 2; 
+    display: inline;
+    background-color:#E2E2FE;
+    font-family:Arial Narrow;
+	font-size: 12px;
+    padding: 0px; 
+    overflow: auto;
+}
+
+.popupWindow
+{
+	position:absolute;
+    border: solid 1px black;
+    margin: 0px 0px 0px 20px;
+    background-color:white;
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=5, OffY=5, Color=#2557ad); 
+}
+
+.listing 
+{
+   
+    background-color:#E2E2FE;
+    font-family:Arial Narrow;
+	font-size: 14px;
+}
+
+.PanelStyle
+{
+	border:solid;
+	background-color:#E2E2FE;
+	border-width:1px;
+	border-color:Black;
+	font-family:Arial Narrow;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.PanelStyleSmall
+{
+	border:solid;
+	background-color:#E2E2FE;
+	border-width:1px;
+	border-color:Black;
+	font-family:Arial Narrow;
+	font-size: 11px;
+	overflow: auto;
+}
+
+/* the style of the table to define the layout of tree and content*/
+.MainTableStyle
+{
+	font-family:Arial Narrow; 
+	font-size: 14px;
+	border-width:0;
+}
+.CellStyle
+{ 
+	font-family: Arial Narrow; 
+	font-size: 14px;
+	vertical-align:top;
+	background-color:#E2E2FE;
+}
+
+.LabelStyle
+{
+	font-family:Arial Narrow; 
+	font-size: 12px;
+}
+
+.TextBoxStyle
+{
+	font-family:Arial Narrow; 
+	font-size: 12px;
+	width: 100px;
+}
+
+/* Style of the TreeView*/
+.TVDefaultStyle
+{
+	background:#E2E2FE;
+	font-family:Arial Narrow;
+	font-size: 14px;
+	color:black;
+}
+.TVHoverStyle
+{
+	color:White;
+	font-family:Arial Narrow;
+}
+.TVSelectedStyle
+{
+	color:White;
+	font-family:Arial Narrow;
+	font-weight:bold;
+}
+/* DataGrid style */
+
+.dgStyle1 
+{
+	border-style:ridge;
+	border-width:1px;
+	border-color:Silver;
+	/*background-color:White;*/
+	font-family:Arial Narrow;
+	font-size:14px;
+	background-color:red;
+}
+.dgSelectedItemStyle1
+{
+	background-color : Yellow;
+	color : Black;
+	font-family:Arial Narrow;
+	font-size:14px;
+	/*font-weight:bold;*/
+}
+.dgItemStyle1
+{
+	/*ackground-color:"#DEDFDE";*/
+	background-color:#E2E2FE;
+	color:Black;
+}
+.dgItemStyle2
+{
+	/*ackground-color:"#DEDFDE";
+	background-color:#E2E2FE;*/
+	color:Black;
+	text-align : center;
+	vertical-align : middle;
+}
+.dgHeaderStyle1
+{
+	background-color: Gray; /* "#4A3C8C"; */
+	color: Gray; /* "#E7E7FF"; */
+	font-weight:bold;
+	text-align:center;
+}
+.dgHeaderStyle2
+{
+	background-color: Gray; /* "#4A3C8C"; */
+	color: Gray; /* "#E7E7FF"; */
+	text-align:center;
+}
+.dgFooterStyle1
+{
+	background-color:#E2E2FE;
+	color: Blue;
+}
+.dgPagerStyle1
+{
+	background-color: Gray; /* "#E2E2FE"; */
+	color:Black;
+	text-align : center;
+}
+/* end of DataGrid style */
+
+/* DataList style */
+.dlStyle1 
+{
+	font-family:Arial Narrow;
+	font-size:12px;
+}
+/* end of DataList style */
+
+
+/* Navigate Link style */
+.NavigateLink
+{
+	font-family:Arial;
+	color:blue;
+	font-size:11px;
+}
+
+/* error message style */
+.ErrorMessage
+{
+	color:Red;
+	Font-Size:smaller;
+	font-style:italic;
+}
+/* end of error message style */
+.HeadLine1
+{
+	background-color:#6599C1;
+	font-weight: normal;
+	font-size: medium;
+	color: black;
+	font-family: 'Arial Black';
+}
+.HeadLine2
+{
+	color: #ffffff;
+	font-family: Arial;
+	background-color: #6599C1;
+}
+/* background color for the header at the top of the page  */
+.HeadBg {
+    background-color: navy;
+}
+.menustyle 
+{	font-size: 8pt; 
+	font-family: Arial; 
+	color: #FF7C7C; 
+	background-color: #000000; 
+	font-weight: bold; 
+	cursor: default
+}
+.body
+{
+	color: black;
+	font-size: 8pt;
+	font-family: Tahoma;
+}
+.body-bold
+{
+	color: black;
+	font-size: 8pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.body-bold-white
+{
+	color: White;
+	font-size: 8pt;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.body-title
+{
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: #072b61;
+	font-family: "Arial Narrow";
+	text-align: left;
+}
+.body-title-white
+{
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: White;
+	font-family: "Arial Narrow";
+	text-align: left;
+}
+.body-title-white
+{
+	font-weight: bold;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: White;
+	font-family: "Arial Narrow";
+	text-align: left;
+}
+.body-label-small
+{
+	font-weight: bold;
+	font-size: 9pt;
+	text-transform: uppercase;
+	color: White;
+	font-family: "Arial Narrow";
+	text-align: center;
+}
+
+.body-subtitle
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: blue;
+	font-family: "Arial Narrow";
+	text-align: left;
+}
+.body-gray
+{
+	color: #cccccc;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: "Arial";
+	FONT-WEIGHT: normal;
+	FONT-STYLE: normal;
+	text-align: left;
+}
+.body-link
+{
+	font-size: 8pt;
+	color: blue;
+	font-style: normal;
+	font-family: "arial";
+	text-decoration: underline;
+}
+.body-filter
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: blue;
+	font-style: normal;
+	font-family: "Arial Narrow";
+	text-decoration: underline;
+}
+.body-head-link
+{
+	color: blue;
+	font-size: 8pt;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.button
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: black;
+	font-style: normal;
+	font-family: Tahoma;
+}
+
+/* background color for the content part of the pages */
+Body
+{
+	font-family:Arial Narrow; font-size:60%; 
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    font-weight: normal;
+}
+
+
+
+/* GENERIC */
+Table.TreeNode	
+{
+	border-collapse : collapse;
+	border : 1;
+	padding : 4;
+}
+
+TBODY.Help   {
+    font-family : Arial Narrow;
+    font-size : 14px; 
+    background-color : #E7E7FF;  
+}
+
+TFOOT, THEAD    {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    color: Black;
+}
+
+THEAD.TreeNode   {
+    font-family : Arial Narrow;
+    font-size : 12px;
+    font-weight:bold;
+    text-align : center;
+    background-color : #4A3C8C;
+    /*color : white;*/
+	color: Black; /* "#E7E7FF"; */
+}
+
+THEAD.Help   {
+    font-family : Arial Narrow;
+    font-size : 14px;
+    font-weight:bold;
+    text-align : center;
+    background-color : #4A3C8C;
+    color: Black; /* "#E7E7FF"; */
+    color : white;
+	
+}
+
+TR.TreeNode   {
+    font-family : Arial Narrow;
+    font-size : 12px;
+}
+
+TH  {
+    vertical-align: baseline;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  10px;
+    font-weight:    bold;
+    color: White;
+}
+
+H1  
+{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:120%; font-style:italic;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H2  {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H3  {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    font-weight:    normal;
+    color: red;
+}
+
+H4  {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  12px;
+    font-weight:    normal;
+    color: red;
+}
+
+H5, DT  {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: red;
+}
+
+H6  {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size:  11px;
+    font-weight:    bold;
+    color: red;
+}
+
+A:link  {
+    text-decoration:    none;
+    color:  Blue;
+}
+
+A:visited   {
+    text-decoration:    none;
+}
+
+A:active    {
+    text-decoration:    none;
+    color: red;
+}
+
+A:hover {
+    text-decoration:    underline;
+    color:  red;
+}
+
+SMALL   {
+    font-size:  8px;
+}
+
+BIG {
+    font-size:  14px;
+}
+
+BLOCKQUOTE, PRE {
+    font-family:    Lucida Console, monospace;
+}
+
+
+UL LI   {
+    list-style-type:    square ;
+}
+
+UL LI LI    {
+    list-style-type:    disc;
+}
+
+UL LI LI LI {
+    list-style-type:    circle;
+}
+
+OL LI   {
+    list-style-type:    decimal;
+}
+
+OL OL LI    {
+    list-style-type:    lower-alpha;
+}
+
+OL OL OL LI {
+    list-style-type:    lower-roman;
+}
+
+HR {
+    color: Gray;
+    height:1pt;
+    text-align:left
+}
+
+
+.watermark {
+	background: #FFAAFF;
+}
+
+.popupControl {
+	background-color:#AAD4FF;
+	position:absolute;
+	visibility:hidden;
+	border-style:solid;
+	border-color: Black;
+	border-width: 2px;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.pageBackGroundColor
+{
+	background-color:White /*#dee7f7 #C0C0C0*/
+}
+
+.pageMenuColor
+{
+	background-color:White /*#dee7f7 #C0C0C0*/
+}
+
+.lightgray-stroke-sbox 
+{
+	background:#f3f3f3;
+	border:solid 0 #ccc;
+	border-width:0 1px;
+	}
+
+tr.red td {
+  background-color: #C4D0DD;
+}
+
+tr.alternatered td {
+  background-color: #E0E6EB;
+}
+
+td.width td {
+  width: 6%;
+}
+
+.gridHeader
+{
+  background-color: #BAB9B9 ;
+  font-weight:bold;
+  color:#000000;          
+}
+

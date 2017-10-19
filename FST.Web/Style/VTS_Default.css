@@ -1,0 +1,1995 @@
+/*BODY {
+	margin: 0;
+	padding: 0;
+	background-color: #E8F0F7;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: normal;
+}*/
+
+.HeaderArea {
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.HeaderCell {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font: bold 26px  Arial, Helvetica, sans-serif;
+	color: #162D43;
+}
+.HeaderUserText {
+	font: 16px  Arial, Helvetica, sans-serif;
+}
+.HeaderStatusCell {
+	padding-left: 6px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: black;
+}
+.HeaderStatusText {
+	color: black;
+}
+.HeaderStatusError {
+	color: red;
+}
+.HeaderNavArea {
+	height: 30px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #c0dd5d;
+	font: bold 14px  Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+.HeaderNavAreaInside {
+	background-color: #336699;
+	font: bold 14px  Arial, Helvetica, sans-serif;
+	color: white;
+}
+.HeaderNavAreaInside2 {
+	background-color: #336699;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: white;
+}
+.HeaderNav2Area {
+	background-color: #9CC5E9;
+	height: 30px;
+}
+.HeaderNavCell {
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #ffffcc;
+	background-color: #9CC5E9;
+}
+.HeaderNavCellActive {
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #306794;
+	background-color: #9CC5E9;
+}
+.HeaderNav2Cell {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+}
+.HeaderNav2CellRight {
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: white;
+}
+.HeaderAttentionLink {
+	color:Red;
+	text-decoration: underline;
+	font-weight:bold;
+	background-color:White;
+	padding: 2px 2px 2px 2px;
+}
+A.HeaderNavLink {
+	color: white;
+	text-decoration: none;
+}
+A.HeaderNavLink:hover {
+	color: #ffffcc;
+	text-decoration: none;
+}
+A.HeaderNavLinkActive {
+	color: #FEFDC7;
+	text-decoration: none;
+}
+A.HeaderNavLinkActive:hover {
+	color: #336699;
+	text-decoration: none;
+}
+A.HeaderNav2Link {
+	color: #333366;
+	text-decoration: none;
+}
+A.HeaderNav2Link:hover {
+	color: #336699;
+	text-decoration: none;
+}
+A.HeaderNav2LinkActive {
+	color: #ffffcc;
+	text-decoration: none;
+}
+A.HeaderNav2LinkActive:hover {
+	color: #336699;
+	text-decoration: none;
+}
+.FooterArea {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.FooterCell {
+	padding: 0;
+	font: 10px  Arial, Helvetica, sans-serif;
+	color: gray;
+}
+.PageArea {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+.PageCell {
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	font: 12px  Arial, Helvetica, sans-serif;
+}
+.PageHeadingCell {
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+}
+.PageHeading2Cell {
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+}
+.PageMessageCell {
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	font: 20px  Arial, Helvetica, sans-serif;
+}
+.PageTitle {
+	font: bold 17px  Arial, Helvetica, sans-serif;
+	color: #336699;
+}
+.PageErrorText {
+	color: red;
+}
+.PageRequiredText {
+	color: red;
+}
+.InputFormArea {
+	padding-left: 12px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.InputFormCell {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	font: 12px  Arial, Helvetica, sans-serif;
+}
+.InputFormHeadingCell {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 12px;
+	padding-bottom: 2px;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+}
+.InputFormHeadingText {
+	font: bold 15px  Arial, Helvetica, sans-serif;
+}
+.InputFormHeading2Text {
+	font: bold 12px  Arial, Helvetica, sans-serif;
+}
+.InputFormRequiredText {
+	color: red;
+}
+.InputFormText {
+	font: 12px  Arial, Helvetica, sans-serif;
+}
+
+.InputFormRadio INPUT {
+	vertical-align: middle
+}
+.InputFormRadioCommentCell {
+	padding-left: 20px;
+	padding-top: 0px;
+	font: 15px  Arial, Helvetica, sans-serif;
+}
+.InputSubFormArea {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #C8E6F5;
+}
+.InputSubFormCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	font: 12px  Arial, Helvetica, sans-serif;
+}
+.InputSubFormHeadingCell {
+	padding-left: 2px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+}
+.EditFormArea {
+	padding-left: 12px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.EditFormCell {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 15px  Arial, Helvetica, sans-serif;
+}
+.EditFormCellRequired {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 15px  Arial, Helvetica, sans-serif;
+	color: red;
+}
+.SelectionArea {
+	border: 2px solid #AAACAD;
+}
+.SelectionCell {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: 18px  Arial, Helvetica, sans-serif;
+	color: #394044;
+}
+.SelectionCell A {
+	text-decoration: none;
+	color: #394044;
+}
+.InfoBoardArea {
+}
+.InfoBoardCell {
+}
+.InfoBoardCellCaption {
+	padding-bottom: 4px;
+	font: bold 40px  Arial, Helvetica, sans-serif;
+}
+.InfoBoardCellData {
+	padding-top: 4px;
+	font: bold 60px  Arial, Helvetica, sans-serif;
+	color: #0A246A;
+}
+.HeadNormal {
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+/******************************** Fonts *********************************/
+.maintext {
+	font: 15px  Arial, Helvetica, sans-serif;
+}
+.BoldText {
+	font: bold 13px  Arial, Helvetica, sans-serif;
+}
+.ReportNoText {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+.BoldGridText {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.HeaderDropdown {
+	font: 13px  Arial, Helvetica, sans-serif;
+}
+.Required {
+	font: 15px  Arial, Helvetica, sans-serif;
+	color: red;
+}
+
+
+.headsmall {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	color: Black;
+}
+.headsmallText {
+	font: bold 12px  Arial, Helvetica, sans-serif;
+}
+.headsmallLink {
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #336699;
+	text-decoration: none;
+}
+.headsmallLink:hover {
+	color: #6699CC;
+	text-decoration: none;
+}
+.Input {
+	border: 1px solid #999999;
+	background-color: expression((this.disabled || this.readOnly)? "#E0DFE3":"#FFFFFF");
+	font: 15px Arial, Helvetica, sans-serif;
+}
+.WideInput {
+	border: 1px solid #999999;
+	background-color: expression((this.disabled || this.readOnly)? "#E0DFE3":"#FFFFFF");
+	font: 12px  Arial, Helvetica, sans-serif;
+	width: 300px;
+}
+
+.input12 {
+	border: 1px solid #999999;
+	background-color: expression((this.disabled || this.readOnly)? "#E0DFE3":"#FFFFFF");
+	font: 12px  Arial, Helvetica, sans-serif;
+}
+.checklist {
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.checklist TR TD {
+	padding-right: 8px;
+}
+.tablebig {
+	vertical-align: top;
+	padding-left: 1px;
+	padding-top: 1px;
+	padding-right: 1px;
+	font-size: 11px;
+	border: 0px;
+}
+.TableBigCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	font: 15px  Arial, Helvetica, sans-serif;
+	color: Black;
+}
+.TableBigCellNowrap {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	font-size: 15px;
+	white-space: nowrap;
+}
+.TableBigCellBold {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.TableBigCellBoldNowrap {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.TableBigCellOffset {
+	padding-left: 20px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 15px;
+}
+.TableBigCellOffsetBold {
+	padding-left: 20px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.TableBigCellRequired {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 15px;
+	color: Red;
+}
+TD.TableBigHeaderCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.tablebigText {
+	font-size: 15px;
+	font-weight: normal;
+}
+.TableBigBlueArea {
+	background-color: #AEC8E3;
+	font-size: 15px;
+}
+.TableBigBlue2Area {
+	background-color: #C8E6F5;
+	font-size: 15px;
+}
+.tablebigredArea {
+	background-color: #FACBCB;
+	font-size: 15px;
+}
+.tablebigred2Area {
+	background-color: #F0AFA4;
+	font-size: 15px;
+}
+.tablebigred {
+	background-color: #FACBCB;
+	vertical-align: top;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 15px;
+}
+.tablebigred2 {
+	background-color: #F0AFA4;
+	vertical-align: top;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 15px;
+}
+.tablebigblue {
+	background-color: #AEC8E3;
+	vertical-align: top;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 15px;
+}
+.tablebigblue2 {
+	width: 100%;
+	background-color: #C8E6F5;
+	vertical-align: top;
+	font-size: 15px;
+}
+label {
+	font-size: 15px;
+	font-weight: normal;
+}
+.label {
+	font-size: 15px;
+	font-weight: normal;
+}
+.headergrey {
+	color: #333333;
+	font-weight: bold;
+}
+.smalllink {
+	font: 15px  Arial, Helvetica, sans-serif;
+	color: #336699;
+	text-decoration: none;
+}
+.smalllink:hover {
+	color: #6699CC;
+	text-decoration: none;
+}
+.headerblue {
+	color: #D5F1FF;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 50%;
+	padding-left: 2px;
+}
+.headerred {
+	color: #FACBCB;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	width: 50%;
+	padding-left: 2px;
+}
+.select {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	border: none;
+}
+
+.ValidatorLabelError {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	color: #FF0000;
+}
+.AddButtonCell {
+	padding-right: 16px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+}
+.AdminDataGrid {
+	border: 2px solid #AAACAD;
+}
+.AdminDataGridHeader TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 2px solid #AAACAD;
+	font: bold 11px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #336699;
+}
+.AdminDataGridHeader A {
+	color: white;
+	text-decoration: none;
+}
+.AdminDataGridHeader A:hover {
+	color: white;
+	text-decoration: underline;
+}
+.AdminDataGridFooter TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 2px solid #AAACAD;
+	font: bold 11px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #214766;
+}
+.AdminDataGridCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.AdminDataGridCellSelected {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: bold 11px  Arial, Helvetica, sans-serif;
+	color: #663399;
+	background-color: #FFCC66;
+}
+.AdminDataGridCellEdit {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: blue;
+	background-color: #FFCC66;
+}
+.AdminDataGridItem TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.AdminDataGridItemSelected TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: bold 11px  Arial, Helvetica, sans-serif;
+	color: #663399;
+	background-color: #FFCC66;
+}
+.AdminDataGridItemEdit TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: blue;
+	background-color: #FFCC66;
+}
+.AdminDataGridPager TD {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 2px solid #AAACAD;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: #999999;
+	background-color: #E6EDF4;
+}
+.AdminDataGridPager TD SPAN {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.AdminDataGridPager A {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #333366;
+	text-decoration: none;
+}
+.AdminDataGridPager A:hover {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #336699;
+	text-decoration: none;
+}
+.AdminDataGridText {
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: #394044;
+}
+.HyperlinkDataGrid {
+	border: 2px solid #AAACAD;
+}
+.HyperlinkDataGridHeader {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 0px none #3366CC;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #CCCCFF;
+	background-color: #003399;
+}
+.HyperlinkDataGridFooter {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 0px none #3366CC;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #003399;
+	background-color: #99CCCC;
+}
+.HyperlinkDataGridCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: none 0px #3366CC;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #003399;
+	background-color: #E6EDF4;
+	white-space: nowrap;
+}
+.HyperlinkDataGridCell A {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #394044;
+	text-decoration: none;
+}
+.HyperlinkDataGridCell A:hover {
+	text-decoration: underline;
+}
+.HyperlinkDataGridCellSelected {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 0px none #3366CC;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #CCFF99;
+	background-color: #009999;
+}
+.HyperlinkDataGridCellEdit {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 0px none #3366CC;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: blue;
+	background-color: #FFCC66;
+}
+.HyperlinkDataGridPager {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 2px solid #AAACAD;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #003399;
+	background-color: #99CCCC;
+}
+.HyperlinkDataGridPager A {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #003399;
+	background-color: #99CCCC;
+}
+.HyperlinkDataGridPager A:hover {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #003399;
+	background-color: #99CCCC;
+}
+.HyperlinkDataGridPager TD {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #003399;
+}
+.HyperlinkDataGridPager SPAN {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #003399;
+}
+.SelectDataGrid {
+	border: 1px solid #FFFFFF;
+}
+.alternateDataGrid {
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid #FFFFFF;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #EEEEEE;
+}
+.SelectDataGridHeader {
+	padding-left: 4px;
+	padding-right: 4px;
+	border: 1px solid #FFFFFF;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #c0dd5d;
+	background-image:url(../images/bg_gridHdr.gif);
+	background-repeat:repeat-x;
+}
+.SelectDataGridHeader TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 2px solid #FFFFFF;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #336699;
+}
+.SelectDataGridHeader A {
+	color: #333333;
+	text-decoration: none;
+}
+.SelectDataGridHeader A:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+.SelectDataGridFooter {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 1px solid #FFFFFF;
+	font: bold 9px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #c0dd5d;
+}
+.SelectDataGridFooter TD {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 1px solid #FFFFFF;
+	font: bold 10px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #c0dd5d;
+}
+.SelectDataGridCellSpcl {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #FFFFFF;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.SelectDataGridCellSpclSpcl {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #FFFFFF;
+	font: 15px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+	
+.SelectDataGridCellSpclClear {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #FFFFFF;
+	border-left: 0px;
+	border-right: 0px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.SelectDataGridCellSpclClearRight {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 1px solid #FFFFFF;
+	border-right: 0px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+
+.SelectTable {
+	border: 1px solid #AAACAD;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+
+.SelectTable TR
+{
+	height: 28px;
+	vertical-align: top;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.SelectTable TR TD{
+	border: 1px solid #AAACAD;
+}
+
+
+.SelectDataGridPager {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid #FFFFFF;
+	font: 11px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.SelectDataGridPager TD {
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid #FFFFFF;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #c0dd5d;
+}
+.SelectDataGridPager TD SPAN {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.SelectDataGridPager A {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #333366;
+	text-decoration: none;
+}
+.SelectDataGridPager A:hover {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #336699;
+	text-decoration: none;
+}
+.MessageDataGrid {
+	border: 2px solid red;
+}
+.MessageDataGridCell {
+	padding-left: 4px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 0px none;
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: red;
+}
+.MessageDataGridFooter2Cell {
+	padding-left: 4px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.EditDataGrid {
+	border: none;
+}
+.EditDataGridHeader {
+	padding-left: 0px;
+	padding-right: 1px;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.EditDataGridCell {
+	padding-left: 0px;
+	padding-right: 1px;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.EditDataGridButton {
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 14px;
+}
+.EditDataGridButton a 
+{
+	color: black;
+	background-color: #D1E1EF;
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	
+/*	color: #999999;
+	background-color: #E8F0F7;
+	border-bottom: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-right: #999999 1px solid;
+	border-top: #999999 1px solid; */
+
+	font-family:  Arial;
+	font-size: 15px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-decoration: none;
+	cursor: default;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.EditDataGridButton a:hover {
+/*	color: black;
+	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid; */
+
+	text-decoration: none;
+	cursor: hand;
+}
+.EditMultiDataGrid {
+	border: none;
+}
+.EditMultiDataGridHeader {
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.EditMultiDataGridCell {
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font: 11px  Arial, Helvetica, sans-serif;
+}
+.ScheduleDataGridItem {
+	padding-left: 16px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: #394044;
+	background-color: #E6EDF4;
+}
+.ScheduleDataGridSelectedItem {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font: 12px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #00C0C0;
+}
+.ScheduleDataGridColumnItem {
+	border: 1px solid #FFFFFF;
+}
+.ScheduleDataGridColumnItem A {
+
+}
+.ScheduleDataGridColumnItem A:hover {
+	color: #6699CC;
+}
+.ScheduleDataGridColumnItemAdd {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: none;
+	background-color: #E6EDF4;
+}
+/*
+.ScheduleCalendar {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border: 2px solid #AAACAD;
+}
+.ScheduleCalendarHeader {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 2px solid #AAACAD;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #336699;
+}
+*/
+.ScheduleCalendarCellAddText {
+	font: 15px  Arial, Helvetica, sans-serif;
+}
+.ScheduleCalendarCellAddText A {
+	color: blue;
+}
+.ScheduleCalendarCellAddText A:hover {
+	color: #6699CC;
+}
+.ScheduleCalendarCellSmallText {
+	font-size: 8px;
+}
+.SelectLink {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #394044;
+	text-decoration: none;
+}
+.SelectLink:hover {
+	text-decoration: underline;
+}
+.button a {
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	background-color: #D1E1EF;	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+	
+/*	border: solid 1px #999999;
+	color: #999999;
+	background-color: #E8F0F7; 
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.button a:hover {
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black;
+*/
+	text-decoration: none;
+	cursor: hand;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.buttonEmpty {
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.button14 {
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.button14 a {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+	background-color: #D1E1EF;
+
+/*	border: solid 1px #999999;
+	color: #999999;
+	background-color: #E8F0F7;
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.button14 a:hover {
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black;
+*/
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+.button14red {
+	padding-left: 1px;
+	padding-right: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.button14red a {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+	
+/*	border: solid 1px #F0AFA4;
+	color: #999999; 
+	background-color: #FACBCB;
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	background-color: #F0AFA4;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.button14red a:hover {
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	
+	background-color: #F0AFA4;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+.buttondark {
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	white-space: nowrap;
+}
+.buttondark a {
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+	background-color: #D1E1EF;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	cursor: default;
+	white-space: nowrap;
+}
+.buttondark a:hover {
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+TD.buttonCell {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	white-space: nowrap;
+}
+a.ButtonLink {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	text-align: center;
+}
+a.ButtonLink:hover {
+	padding-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+a.button{
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+a.button:hover {
+	margin: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+a.button14 {
+	margin-left: 1px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+a.button14:hover {
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+
+a.button14red {
+	margin-left: 1px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #F0AFA4;
+	color: #999999; 
+	background-color: #FACBCB;
+*/
+
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	background-color: #F0AFA4;
+	text-decoration: none;
+	cursor: default;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+a.button14red:hover {
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	background-color: #F0AFA4;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+
+a.buttondark {
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: default;
+	white-space: nowrap;
+}
+a.buttondark:hover {
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+	white-space: nowrap;
+}
+
+
+
+
+
+.SmallTables {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 1px solid #AAACAD;
+	font: 15px  Arial, Helvetica, sans-serif;
+	background-color: #E6EDF4;
+	width:300px;
+}
+.SmallTablesHeader {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: 1px solid #AAACAD;
+	font: bold 15px  Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #336699;
+}
+.SmallTablesHeader A {
+	color: white;
+	text-decoration: none;
+}
+.SmallTablesHeader A:hover {
+	color: white;
+	text-decoration: underline;
+}
+.PreviewLabelCell {
+	padding-left: 16px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.Status {
+	width: 100%;
+	background-color: #E8F0F7;
+	vertical-align: top;
+	font-size: 15px;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+	background: #9CC5E9;
+	text-align: center;
+}
+/* Commented to support RadWindow (Control buttons match this style and break the window). - Igor Toropov */
+/*li
+{
+	float:left;
+	position: relative;
+	background: #9CC5E9;
+	text-align: left;
+	width:100%;
+}*/
+li ul{
+	display:none;
+	position:absolute;
+	left:0;
+}
+li > ul{
+	top: auto;
+	left: auto;
+	right:auto;
+}
+
+li:hover ul, li.over ul{
+	display: block;
+}
+.menu{
+	position: absolute;
+	width: 700px;
+	text-align: center;
+}
+.header{
+	background-image: url(images/header.jpg);
+	width:100%;
+}
+li a:hover {
+		background-color: #2883D3;
+		color: #fff;
+}
+li a{
+	display:block;
+}
+
+a.HButtonLeft {
+	position: relative;
+	float: left
+}
+
+
+a.HButtonRight {
+	position: relative;
+	float: right
+}
+
+.HeaderCommandAria
+{
+	background-color: #9CC5E9;
+	height: 30px;
+	padding: 4px;
+	width: 100%;
+}
+
+.HeaderCommandAria a
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	
+	border-bottom: #000000 1px solid;
+	border-left: #AAAAAA 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #AAAAAA 1px solid;
+	color: black;
+
+/*	border: solid 1px #999999;
+	color: #999999; 
+	background-color: #E8F0F7;
+*/
+
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: default;
+}
+
+.HeaderCommandAria a:hover
+{
+	margin: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+/*	border-bottom: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-right: #000000 1px solid;
+	border-top: #FFFFFF 1px solid;
+	color: black; */
+	background-color: #D1E1EF;
+	text-decoration: none;
+	cursor: hand;
+}
+
+/* ------------------- TabControl styles ------------------- */
+
+.TabContainer
+{
+	height: 20px;
+	vertical-align:top;
+	/*white-space: nowrap;*/
+}
+
+/* TabArea */
+.TabBlueArea
+{
+	width: 100%;
+	background-color: #C8E6F5;
+}
+.TabBlueAreaD
+{
+	width: 100%;
+	background-color: #AEC8E3; 
+}
+.TabRedArea
+{
+	width: 100%;
+	background-color: #FACBCB; /* #FACBCB; */ 
+}
+.TabRedAreaD
+{
+	width: 100%;
+	background-color: #F0AFA4; /* 240 175 164 */
+}
+
+/* TabContent */
+.TabBlueContent
+{
+	height: 20px;
+	background-color: #AEC8E3; /* #C8E6F5; 200 230 245 */
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabBlueContent A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+.TabBlueContentD
+{
+	height: 20px;
+	background-color: #AEC8E3; /* #C8E6F5; 200 230 245 */
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabBlueContentD A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+.TabBlueContentP
+{
+	height: 20px;
+	background-color: #81A1C2; /*129 161 194 */
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabBlueContentP A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.TabRedContent
+{
+	height: 20px;
+	background-color: #FACBCB;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabRedContent A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+.TabRedContentD
+{
+	height: 20px;
+	background-color: #F0AFA4;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabRedContentD A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+.TabRedContentP
+{
+	height: 20px;
+	background-color: #CC6666;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:2px;
+}
+.TabRedContentP A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+/* Tab First Image */
+.TabBlueLeft
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueLeft.gif);
+}
+.TabBlueLeftD
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueLeftD.gif);
+}
+.TabBlueLeftP
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueLeftP.gif);
+}
+.TabRedLeft
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedLeft.gif);
+}
+.TabRedLeftD
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedLeftD.gif);
+}
+.TabRedLeftP
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedLeftP.gif);
+}
+
+/* Tab First Left Image */
+.TabBlueFirstLeft
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabBlueFirstLeft.gif);
+}
+.TabBlueFirstLeftD
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabBlueFirstLeftD.gif);
+}
+.TabBlueFirstLeftP
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabBlueFirstLeftP.gif);
+}
+.TabRedFirstLeft
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabRedFirstLeft.gif);
+}
+.TabRedFirstLeftD
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabRedFirstLeftD.gif);
+}
+.TabRedFirstLeftP
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabRedFirstLeftP.gif);
+}
+
+/*  */
+.TabContent A
+{
+	font: 12px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+.TabContent A:hover
+{
+	font: 12px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+/* Tab Right image */
+.TabBlueRight
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueRight.gif);
+}
+.TabBlueRightD
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueRightD.gif);
+}
+.TabBlueRightP
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabBlueRightP.gif);
+}
+.TabRedRight
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedRight.gif);
+}
+.TabRedRightD
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedRightD.gif);
+}
+.TabRedRightP
+{
+	height: 20px;
+	width: 4px;
+	background-image: url(../images/TabRedRightP.gif);
+}
+
+
+.TabCyanLeft,TabCyanFirstLeft
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabCyanLeft.gif);
+}
+.TabCyanRight
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabCyanRight.gif);
+}
+.TabCyanContent
+{
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url(../images/TabCyanMid.gif);
+}
+.TabCyanContent A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.TabGreenLeft,TabGreenFirstLeft
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabGreenLeft.gif);
+}
+.TabGreenRight
+{
+	height: 20px;
+	width: 14px;
+	background-image: url(../images/TabGreenRight.gif);
+}
+.TabGreenContent
+{
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url(../images/TabGreenMid.gif);
+}
+.TabGreenContent A
+{
+	font: bold 12px  Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.TreePath
+{
+	width: 100%;
+	height: 30;
+	padding: 8px;
+	background-color: #ACD5F9;
+	font: 12x;
+	font-weight: bold;
+}

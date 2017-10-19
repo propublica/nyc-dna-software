@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+    <!--=====================================================================================================-->
+    <!--///////////////////////////// MENU USED FOR USER LOGIN SCREENS/////////////////////////////////-->
+    <!--=====================================================================================================-->
+    <menuItem>
+        <text>Home</text>
+        <url>../frmDefault.aspx</url>
+    </menuItem>
+
+    <menuItem>
+        <text><![CDATA[&nbsp;|&nbsp;]]></text>
+    </menuItem>
+    <!--=====================================================================================================-->
+    <!--///////////////////////////// MENU USED FOR ADMIN SCREENS //////////////////////////////////////////-->
+    <!--=====================================================================================================-->
+    <menuItem>
+        <text><![CDATA[Admin]]></text>
+        <roles>ADMIN</roles>
+        <subMenu align ="left">
+
+            <menuItem>
+                <text><![CDATA[Standards]]></text>
+                <roles>STANDARDS</roles>
+                <subMenu align ="left">
+                    <!--<menuItem>
+                        <text>Edit Degraded Dropouts</text>
+                        <roles>EDIT DEGRADED DROPOUT</roles>
+                        <url>../Admin/frmDegradedDropOutRate.aspx</url>
+                    </menuItem>-->
+
+                    <menuItem>
+                        <text>Edit Lab Kits</text>
+                        <roles>EDIT LAB KITS</roles>
+                        <url>../Admin/frmDropOut.aspx</url>
+                    </menuItem>
+                    <!--<menuItem>
+						<text>Edit Dropins</text>
+						<roles>EDIT DROPIN</roles>
+						<url>../Admin/frmDropInRate.aspx</url>
+					</menuItem>-->
+
+                    <menuItem>
+                        <text>Edit Frequency</text>
+                        <roles>EDIT FREQUENCY</roles>
+                        <url>../Admin/frmfrenquencyMaintain.aspx</url>
+                    </menuItem>
+
+                    <menuItem>
+                        <text>Edit Lab Types</text>
+                        <roles>EDIT LAB TYPES</roles>
+                        <url>../Admin/frmKnownProfile.aspx</url>
+                    </menuItem>
+
+                    <menuItem>
+                        <text>Edit Population</text>
+                        <roles>EDIT POPULATION</roles>
+                        <url>../Admin/frmKnownPopulation.aspx</url>
+                    </menuItem>
+                    <menuItem>
+						<text>View Dropout Rates</text>
+						<roles>VIEW DROPOUT RATES</roles>
+						<url>../Admin/frmIntermediateDropoutRates.aspx</url>
+					</menuItem>
+
+                    <menuItem>
+                        <text>View Submitted Jobs Status</text>
+                        <roles>VIEW SUBMITTED JOBS STATUS</roles>
+                        <url>../Admin/frmJobsStatus.aspx</url>
+                    </menuItem>
+                </subMenu>
+            </menuItem>
+
+            <menuItem>
+                <text>Create New User</text>
+                <roles>CREATE USER</roles>
+                <url>../Admin/CreateUser.aspx</url>
+            </menuItem>
+
+            <menuItem>
+                <text>Manage Users</text>
+                <roles>MANAGE USERS</roles>
+                <url>../Admin/ManageUsers.aspx</url>
+            </menuItem>
+
+            <menuItem>
+                <text>Manage Scenarios</text>
+                <roles>MANAGE SCENARIOS</roles>
+                <url>../Admin/frmScenarioManagement.aspx</url>
+            </menuItem>
+
+            <!--<menuItem>
+				<text>Create New Role</text>
+				<roles>CREATE ROLE</roles>
+				<url>../Admin/CreateNewRole.aspx</url>
+			</menuItem>-->
+
+        </subMenu>
+    </menuItem>
+
+
+</menu>
+

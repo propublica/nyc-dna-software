@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D39D6EB9-FCDB-4B59-82FB-CB4AB489B611}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FST.Web</RootNamespace>
+    <AssemblyName>FST.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="skmmenu, Version=2.2.1823.24764, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\skmmenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\CreateUser.aspx" />
+    <Content Include="Admin\EditUser.aspx" />
+    <Content Include="Admin\frmDegradedDropOutRate.aspx" />
+    <Content Include="Admin\frmEditFrequency.aspx" />
+    <Content Include="Admin\frmEditLabKits.aspx" />
+    <Content Include="Admin\frmJobsStatus.aspx" />
+    <Content Include="Admin\frmKnownPopulation.aspx" />
+    <Content Include="Admin\frmKnownProfile.aspx" />
+    <Content Include="Admin\frmScenarioManagement.aspx" />
+    <Content Include="Admin\frmTestCenter.aspx" />
+    <Content Include="Admin\frmViewDropoutRates.aspx" />
+    <Content Include="Admin\Images\combo_bg.gif" />
+    <Content Include="Admin\Images\Edit.gif" />
+    <Content Include="Admin\Images\eol_header.jpg" />
+    <Content Include="Admin\Images\First.gif" />
+    <Content Include="Admin\Images\img-help.gif" />
+    <Content Include="Admin\Images\Last.gif" />
+    <Content Include="Admin\Images\logo.png" />
+    <Content Include="Admin\Images\Next.gif" />
+    <Content Include="Admin\Images\Prev.gif" />
+    <Content Include="Admin\Images\refresh.jpg" />
+    <Content Include="Admin\Images\refresh.PNG" />
+    <Content Include="Admin\Images\restart.png" />
+    <Content Include="Admin\Images\Select.gif" />
+    <Content Include="Admin\Images\spacer.gif" />
+    <Content Include="Admin\Images\Symbols-Delete-icon32.png" />
+    <Content Include="Admin\Images\top_nav.gif" />
+    <Content Include="Admin\ManageUsers.aspx" />
+    <Content Include="Admin\XMLMenu.xml" />
+    <Content Include="bin\skmmenu.dll" />
+    <Content Include="Controls\Evidence.ascx" />
+    <Content Include="Controls\EvidenceLocus.ascx" />
+    <Content Include="Controls\Profile.ascx" />
+    <Content Include="Controls\ProfileLocus.ascx" />
+    <Content Include="Controls\UserProfile.ascx" />
+    <Content Include="Default.aspx" />
+    <None Include="Service References\FSTWebService\FSTSVC.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FSTWebService\FSTSVC1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FSTWebService\FSTSVC11.disco" />
+    <None Include="Service References\FSTWebService\FSTSVC.disco" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Style\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Style\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Style\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Style\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Style\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Style\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Style\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Style\ui-lightness\jquery-ui-1.7.2.custom.css" />
+    <Content Include="Style\ui-lightness\style_uvis.css" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="frmDefault.aspx" />
+    <Content Include="frmManualEntry.aspx" />
+    <Content Include="frmUpload.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\About.jpg" />
+    <Content Include="Images\AccessDenied.jpg" />
+    <Content Include="Images\Add.gif" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\back_btn.PNG" />
+    <Content Include="Images\banner.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\bg.gif" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg_submenu.gif" />
+    <Content Include="Images\bulk_btn.png" />
+    <Content Include="Images\Buttons\Back1.png" />
+    <Content Include="Images\Buttons\Back2.png" />
+    <Content Include="Images\Buttons\Browse1.png" />
+    <Content Include="Images\Buttons\Browse2.png" />
+    <Content Include="Images\Buttons\Bulk1.png" />
+    <Content Include="Images\Buttons\Bulk2.png" />
+    <Content Include="Images\Buttons\Compare1.png" />
+    <Content Include="Images\Buttons\Compare2.png" />
+    <Content Include="Images\Buttons\Create1.png" />
+    <Content Include="Images\Buttons\Create2.png" />
+    <Content Include="Images\Buttons\Delete1.png" />
+    <Content Include="Images\Buttons\Delete2.png" />
+    <Content Include="Images\Buttons\Edit1.png" />
+    <Content Include="Images\Buttons\Edit2.png" />
+    <Content Include="Images\Buttons\Finish1.png" />
+    <Content Include="Images\Buttons\Finish2.png" />
+    <Content Include="Images\Buttons\Go1.png" />
+    <Content Include="Images\Buttons\Go2.png" />
+    <Content Include="Images\Buttons\New1.png" />
+    <Content Include="Images\Buttons\New2.png" />
+    <Content Include="Images\Buttons\Off1.png" />
+    <Content Include="Images\Buttons\Off2.png" />
+    <Content Include="Images\Buttons\On1.png" />
+    <Content Include="Images\Buttons\On2.png" />
+    <Content Include="Images\Buttons\Preview1.png" />
+    <Content Include="Images\Buttons\Preview2.png" />
+    <Content Include="Images\Buttons\Refresh1.png" />
+    <Content Include="Images\Buttons\Refresh2.png" />
+    <Content Include="Images\Buttons\Reset1.png" />
+    <Content Include="Images\Buttons\Reset2.png" />
+    <Content Include="Images\Buttons\Save1.png" />
+    <Content Include="Images\Buttons\Save2.png" />
+    <Content Include="Images\Buttons\Search1.png" />
+    <Content Include="Images\Buttons\Search2.png" />
+    <Content Include="Images\Buttons\Upload1.png" />
+    <Content Include="Images\Buttons\Upload2.png" />
+    <Content Include="Images\Cancel.gif" />
+    <Content Include="Images\CHECK.GIF" />
+    <Content Include="Images\combo_bg.gif" />
+    <Content Include="Images\compare_btn.gif" />
+    <Content Include="Images\crumbs.gif" />
+    <Content Include="Images\Delete.gif" />
+    <Content Include="Images\Edit.gif" />
+    <Content Include="Images\ewseal.gif" />
+    <Content Include="Images\ewsealReport.JPG" />
+    <Content Include="Images\export.gif" />
+    <Content Include="Images\export_over.gif" />
+    <Content Include="Images\Go.gif" />
+    <Content Include="Images\go_btn.png" />
+    <Content Include="Images\img-Help.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\newblue_btn.gif" />
+    <Content Include="Images\nypd_logo.gif" />
+    <Content Include="Images\nypd_logo_report.JPG" />
+    <Content Include="Images\preview_btn.PNG" />
+    <Content Include="Images\print.gif" />
+    <Content Include="Images\print_over.gif" />
+    <Content Include="Images\processing.gif" />
+    <Content Include="Images\rep1_off.gif" />
+    <Content Include="Images\rep1_on.gif" />
+    <Content Include="Images\rep2_off.gif" />
+    <Content Include="Images\rep2_on.gif" />
+    <Content Include="Images\rep3_off.gif" />
+    <Content Include="Images\rep3_on.gif" />
+    <Content Include="Images\reset_btn.gif" />
+    <Content Include="Images\save-icon.gif" />
+    <Content Include="Images\saveblue_btn.gif" />
+    <Content Include="Images\save_btn.gif" />
+    <Content Include="Images\searchIcon.GIF" />
+    <Content Include="Images\shade.gif" />
+    <Content Include="Images\shadeactive.gif" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\Symbols-Delete-icon.png" />
+    <Content Include="Images\Symbols-Delete-icon32.png" />
+    <Content Include="Images\tab-orange-left2.gif" />
+    <Content Include="Images\TabControl.gif" />
+    <Content Include="Images\TabSelected.jpg" />
+    <Content Include="Images\TabSelectedRep1.jpg" />
+    <Content Include="Images\TabSelectedRep2.jpg" />
+    <Content Include="Images\TabSelectedRep3.jpg" />
+    <Content Include="Images\TabUnSelectedRep1.jpg" />
+    <Content Include="Images\TabUnSelectedRep2.jpg" />
+    <Content Include="Images\TabUnSelectedRep3.jpg" />
+    <Content Include="Images\textbox_bg.gif" />
+    <Content Include="Images\theta.jpg" />
+    <Content Include="Images\upload_btn.gif" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="Scripts\spin.min.js" />
+    <None Include="Reports\ProfileDownloadBlank.xlsx" />
+    <None Include="Service References\FSTWebService\configuration91.svcinfo" />
+    <None Include="Service References\FSTWebService\configuration.svcinfo" />
+    <None Include="Service References\FSTWebService\FSTSVC22.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FSTWebService\FSTSVC23.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FSTWebService\FSTWebService.wsdl" />
+    <None Include="Service References\FSTWebService\FSTWebService11.wsdl" />
+    <None Include="Service References\FSTWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Style\style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="XMLMenuOneUp.xml" />
+    <Content Include="XMLMenu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\CreateUser.aspx.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CreateUser.aspx.designer.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmDegradedDropOutRate.aspx.cs">
+      <DependentUpon>frmDegradedDropOutRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmDegradedDropOutRate.aspx.designer.cs">
+      <DependentUpon>frmDegradedDropOutRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmEditFrequency.aspx.cs">
+      <DependentUpon>frmEditFrequency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmEditFrequency.aspx.designer.cs">
+      <DependentUpon>frmEditFrequency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmEditLabKits.aspx.cs">
+      <DependentUpon>frmEditLabKits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmEditLabKits.aspx.designer.cs">
+      <DependentUpon>frmEditLabKits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmJobsStatus.aspx.cs">
+      <DependentUpon>frmJobsStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmJobsStatus.aspx.designer.cs">
+      <DependentUpon>frmJobsStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmKnownPopulation.aspx.cs">
+      <DependentUpon>frmKnownPopulation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmKnownPopulation.aspx.designer.cs">
+      <DependentUpon>frmKnownPopulation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmKnownProfile.aspx.cs">
+      <DependentUpon>frmKnownProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmKnownProfile.aspx.designer.cs">
+      <DependentUpon>frmKnownProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmScenarioManagement.aspx.cs">
+      <DependentUpon>frmScenarioManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmScenarioManagement.aspx.designer.cs">
+      <DependentUpon>frmScenarioManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmTestCenter.aspx.cs">
+      <DependentUpon>frmTestCenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmTestCenter.aspx.designer.cs">
+      <DependentUpon>frmTestCenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmViewDropoutRates.aspx.cs">
+      <DependentUpon>frmViewDropoutRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\frmViewDropoutRates.aspx.designer.cs">
+      <DependentUpon>frmViewDropoutRates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Evidence.ascx.cs">
+      <DependentUpon>Evidence.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Evidence.ascx.designer.cs">
+      <DependentUpon>Evidence.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EvidenceLocus.ascx.cs">
+      <DependentUpon>EvidenceLocus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EvidenceLocus.ascx.designer.cs">
+      <DependentUpon>EvidenceLocus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Profile.ascx.cs">
+      <DependentUpon>Profile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Profile.ascx.designer.cs">
+      <DependentUpon>Profile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProfileLocus.ascx.cs">
+      <DependentUpon>ProfileLocus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProfileLocus.ascx.designer.cs">
+      <DependentUpon>ProfileLocus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserProfile.ascx.designer.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDefault.aspx.cs">
+      <DependentUpon>frmDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDefault.aspx.designer.cs">
+      <DependentUpon>frmDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmManualEntry.aspx.cs">
+      <DependentUpon>frmManualEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmManualEntry.aspx.designer.cs">
+      <DependentUpon>frmManualEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpload.aspx.cs">
+      <DependentUpon>frmUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmUpload.aspx.designer.cs">
+      <DependentUpon>frmUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Support\HtmlAttributeEncodingNot.cs" />
+    <Compile Include="Controls\UserProfile.ascx.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\FSTWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\Images\.svn\entries" />
+    <None Include="Admin\Images\.svn\prop-base\Edit.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\eol_header.jpg.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\First.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\img-help.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Last.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\logo.png.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Next.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Prev.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\refresh.jpg.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\refresh.PNG.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\restart.png.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Select.gif.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Symbols-Delete-icon32.png.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\Thumbs.db.svn-base" />
+    <None Include="Admin\Images\.svn\prop-base\top_nav.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Edit.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\eol_header.jpg.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\First.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\img-help.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Last.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\logo.png.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Next.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Prev.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\refresh.jpg.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\refresh.PNG.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\restart.png.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Select.gif.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Symbols-Delete-icon32.png.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\Thumbs.db.svn-base" />
+    <None Include="Admin\Images\.svn\text-base\top_nav.gif.svn-base" />
+    <Content Include="Admin\web.config" />
+    <Content Include="DebugOut\Web.config" />
+    <None Include="Images\TabSelected.psd" />
+    <None Include="Images\TabUnSelected.psd" />
+    <None Include="Images\TabUnSelectedBlank.psd" />
+    <Content Include="MasterPage.master" />
+    <None Include="SETUP.BAT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\Copy of FSTResultReport.rdlc" />
+    <EmbeddedResource Include="Reports\FSTResultReport - Backup.rdlc" />
+    <EmbeddedResource Include="Reports\FSTResultReport.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\Images\.svn\props\" />
+    <Folder Include="Admin\Images\.svn\tmp\prop-base\" />
+    <Folder Include="Admin\Images\.svn\tmp\props\" />
+    <Folder Include="Admin\Images\.svn\tmp\text-base\" />
+    <Folder Include="Admin\Upload\" />
+    <Folder Include="FSTReport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FSTWebService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FST.Common\FST.Common.csproj">
+      <Project>{A858FCD3-27E8-4654-872B-7947B4BADA8D}</Project>
+      <Name>FST.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2926</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
