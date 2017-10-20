@@ -2,7 +2,7 @@
 
 ProPublica obtained the source code for New York City's Forensic Statistical Tool (FST), developed by employees of the city's medical examiner's office to help analyze complex DNA evidence from crime scenes.
 
-The software source code contained within this repository is [Copyright © City of New York](https://github.com/propublica/nyc-dna-software/blob/master/FST.Web/Properties/AssemblyInfo.cs#L13) and was [unsealed](https://www.propublica.org/article/federal-judge-unseals-new-york-crime-labs-software-for-analyzing-dna-evidence) by a federal judge after a [motion by ProPublica](https://www.documentcloud.org/documents/4062187-US-v-Johnson-ProPublica-Memorandum-of-Law.html).
+The software source code contained within this repository is [Copyright © City of New York](https://github.com/propublica/nyc-dna-software/blob/master/FST.Web/Properties/AssemblyInfo.cs#L13) and was [unsealed by a federal judge](https://www.documentcloud.org/documents/4113796-10-16-17-Judge-Order-Unsealing-Records.html) after a [motion by ProPublica](https://www.documentcloud.org/documents/4062187-US-v-Johnson-ProPublica-Memorandum-of-Law.html).
 
 **For more info, and for links to newly unredacted expert affidavits analyzing this program, please read [our story about this source code release](https://www.propublica.org/article/federal-judge-unseals-new-york-crime-labs-software-for-analyzing-dna-evidence).**
 
